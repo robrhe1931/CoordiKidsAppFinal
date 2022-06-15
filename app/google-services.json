@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "646278248844",
+    "project_id": "coordikids-17cd4",
+    "storage_bucket": "coordikids-17cd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646278248844:android:3bf58bdc715562f63f7ea9",
+        "android_client_info": {
+          "package_name": "com.example.coordikidsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646278248844-7lbebeklat9tivmestgfo0lkb3cdvufu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coordikidsapp",
+            "certificate_hash": "b0d2d5b1dc9b10d1c7fdbe6706b16be0ff0a665f"
+          }
+        },
+        {
+          "client_id": "646278248844-o69pr7t0l6lo34f4con6heoh7e7nqi0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTHSQNrcY6CIBkB5cWVWV5wgCg3wWi3u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646278248844-o69pr7t0l6lo34f4con6heoh7e7nqi0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

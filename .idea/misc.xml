@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.35833333333333334" />
+        <entry key="../../Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.35833333333333334" />
+        <entry key="app/src/main/res/drawable/bg_auth_textview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_course.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_ellipse_frame.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_line.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_spinner.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/btn_facebook.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/btn_google.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/btn_green.xml" value="0.1185" />
+        <entry key="app/src/main/res/drawable/btn_yellow.xml" value="0.178" />
+        <entry key="app/src/main/res/drawable/ic_arrrow_left.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/ic_drop_down.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_drop_up.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_link.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_person.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_person_frame.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rec_dark_blue.xml" value="0.178" />
+        <entry key="app/src/main/res/drawable/rec_green.xml" value="0.1185" />
+        <entry key="app/src/main/res/drawable/rec_yellow.xml" value="0.178" />
+        <entry key="app/src/main/res/drawable/spinner_dropdown_border.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_facebook_auth.xml" value="0.17314814814814813" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/layout/fragment_classroom_course.xml" value="0.2921875" />
+        <entry key="app/src/main/res/layout/fragment_courses.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/layout/fragment_forgot_pass.xml" value="0.27685185185185185" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_home_course.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_homeschool_course.xml" value="0.2921875" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/fragment_more.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/layout/fragment_my_account.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.2921875" />
+        <entry key="app/src/main/res/layout/fragment_preschool_course.xml" value="0.21754385964912282" />
+        <entry key="app/src/main/res/layout/fragment_signup_billing.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_signup_details.xml" value="0.2913907284768212" />
+        <entry key="app/src/main/res/layout/fragment_signup_order.xml" value="0.35833333333333334" />
+        <entry key="app/src/main/res/layout/fragment_signup_payment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/layout_item_notfication.xml" value="0.2645161290322581" />
+        <entry key="app/src/main/res/layout/layout_item_notification.xml" value="0.35833333333333334" />
+        <entry key="app/src/main/res/layout/layout_item_spinner.xml" value="0.37573385518590996" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.35833333333333334" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

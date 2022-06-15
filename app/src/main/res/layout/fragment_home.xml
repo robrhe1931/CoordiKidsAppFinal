@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header aligned to top -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:background="#FC9"
+        android:backgroundTint="#113859"
+        android:gravity="bottom|center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_CoordiKids"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Scrollable Item below header and above footer -->
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/header"
+        android:background="#fff">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Who We Are"
+                    android:textColor="#113859"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginBottom="22dp"
+                    android:text="CoordiKids was born from a desire to help more, to serve more, and to make effective intervention easy and affordable for as many children as possible."
+                    android:textColor="#113859"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="22dp"
+                    android:text="CoordiKids was born from a desire to help more, to serve more, and to make effective intervention easy and affordable for as many children as possible."
+                    android:textColor="#113859"
+                    android:textSize="18sp" />
+
+                <View
+                    android:id="@+id/rectangle_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/ic_watch_now" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/ic_people" />
+
+                <TextView
+                    android:id="@+id/complete_th"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/complete_th"
+                    android:textAppearance="@style/complete_th"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:background="@drawable/btn_green" />
+
+                    <TextView
+                        android:id="@+id/complete_assignment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="Complete free assignment"
+                        android:textAppearance="@style/view_course" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Our Courses"
+                    android:textAlignment="center"
+                    android:textColor="#2A394E"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginBottom="22dp"
+                    android:text="Our courses are designed to complement and support occupational therapy at home through fun, follow-along video exercises."
+                    android:textAlignment="center"
+                    android:textColor="#2A394E"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="22dp"
+                    android:text="Our combined experience in pediatric occupational therapy, exercise physiology, hand therapy, sensory integration techniques, and homework exercises for parents is the ideal background to ensure a program that meets the needs of the developing child and the busy parent."
+                    android:textAlignment="center"
+                    android:textColor="#2A394E"
+                    android:textSize="18sp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:background="@drawable/btn_green" />
+
+                    <TextView
+                        android:id="@+id/view_course"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="View Courses"
+                        android:textAppearance="@style/view_course" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="22dp"
+                    android:text="How To Start"
+                    android:textColor="#113859"
+                    android:textFontWeight="1000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="22dp"
+                    android:textStyle="bold"
+                    android:text="Step 1 - Purchase Your Preferred Course"
+                    android:textColor="#113859"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/step_1_guid_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/step_1_guid_1"
+                    android:textAppearance="@style/step_guid" />
+
+                <TextView
+                    android:id="@+id/step_1_guid_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/step_1_guid_2"
+                    android:textAppearance="@style/step_guid" />
+
+                <TextView
+                    android:id="@+id/step_1_guid_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/step_1_guid_3"
+                    android:textAppearance="@style/step_guid" />
+
+                <TextView
+                    android:id="@+id/step_1_guid_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/step_1_guid_4"
+                    android:textAppearance="@style/step_guid" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="22dp"
+                    android:textStyle="bold"
+                    android:text="@string/step_two_su"
+                    android:textColor="#113859"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/step_2_guid_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/step_2_guid_1"
+                    android:textAppearance="@style/step_guid" />
+
+                <TextView
+                    android:id="@+id/step_2_guid_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/step_2_guid_2"
+                    android:textAppearance="@style/step_guid" />
+
+                <TextView
+                    android:id="@+id/step_2_guid_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/step_2_guid_3"
+                    android:textAppearance="@style/step_guid" />
+
+                <TextView
+                    android:id="@+id/step_2_guid_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/step_2_guid_4"
+                    android:textAppearance="@style/step_guid" />
+
+                <TextView
+                    android:id="@+id/step_2_guid_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/step_2_guid_5"
+                    android:textAppearance="@style/step_guid" />
+
+                <TextView
+                    android:id="@+id/step_2_guid_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/step_2_guid_6"
+                    android:textAppearance="@style/step_guid" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="50dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:background="@drawable/btn_yellow" />
+
+                    <TextView
+                        android:id="@+id/start_free_"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:text="@string/start_free_"
+                        android:textAppearance="@style/start_free_" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:textStyle="bold"
+                    android:text="@string/coordi_cons"
+                    android:textColor="#2A394E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/coordikids_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="top"
+                    android:text="@string/coordikids_"
+                    android:textAppearance="@style/coordikids_" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:background="@drawable/btn_green" />
+
+                    <TextView
+                        android:id="@+id/learn_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="Learn More"
+                        android:textAppearance="@style/view_course" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="141dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_ndis" />
+
+                <TextView
+                    android:id="@+id/australian_1"
+                    android:layout_width="202dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/australian_1"
+                    android:textAppearance="@style/australian_1" />
+
+                <TextView
+                    android:id="@+id/australian_2"
+                    android:layout_width="202dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="50dp"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/australian_2"
+                    android:textAppearance="@style/australian_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#595bb3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/success_stories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="25dp"
+                    android:text="@string/how_to_star"
+                    android:textAppearance="@style/how_to_star" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_quotes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="@string/benefit_weekly_title"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:textSize="16sp"
+                    android:text="@string/benefit_weekly_content"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_quotes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="@string/ride_bike_title"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:textSize="16sp"
+                    android:text="@string/ride_bike_content"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_quotes" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/wow_title"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:textSize="16sp"
+                    android:text="@string/wow_content"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

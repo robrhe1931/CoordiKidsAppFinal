@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.coordikidsapp.ui.dashboard.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_courses"
+        android:name="com.example.coordikidsapp.ui.dashboard.courses.CoursesFragment"
+        android:label="@string/title_courses"
+        tools:layout="@layout/fragment_courses">
+        <action
+            android:id="@+id/action_navigation_courses_to_homeCourseFragment"
+            app:destination="@id/homeCourseFragment" />
+        <action
+            android:id="@+id/action_navigation_courses_to_preschoolCourseFragment"
+            app:destination="@id/preschoolCourseFragment" />
+        <action
+            android:id="@+id/action_navigation_courses_to_classroomCourseFragment"
+            app:destination="@id/classroomCourseFragment" />
+        <action
+            android:id="@+id/action_navigation_courses_to_homeschoolCourseFragment"
+            app:destination="@id/homeschoolCourseFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.coordikidsapp.ui.dashboard.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.example.coordikidsapp.ui.dashboard.more.MoreFragment"
+        android:label="@string/title_more"
+        tools:layout="@layout/fragment_more">
+        <action
+            android:id="@+id/action_navigation_more_to_myAccountFragment"
+            app:destination="@id/myAccountFragment" />
+        <action
+            android:id="@+id/action_navigation_more_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeCourseFragment"
+        android:name="com.example.coordikidsapp.ui.dashboard.courses.homeCourse.HomeCourseFragment"
+        android:label="fragment_home_course"
+        tools:layout="@layout/fragment_home_course">
+        <action
+            android:id="@+id/action_homeCourseFragment_to_signupOrderFragment"
+            app:destination="@id/signupOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preschoolCourseFragment"
+        android:name="com.example.coordikidsapp.ui.dashboard.courses.preschoolCourse.PreschoolCourseFragment"
+        android:label="fragment_preschool_course"
+        tools:layout="@layout/fragment_preschool_course">
+        <action
+            android:id="@+id/action_preschoolCourseFragment_to_signupOrderFragment"
+            app:destination="@id/signupOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/classroomCourseFragment"
+        android:name="com.example.coordikidsapp.ui.dashboard.courses.classroomCourse.ClassroomCourseFragment"
+        android:label="ClassroomCourseFragment"
+        tools:layout="@layout/fragment_classroom_course">
+        <action
+            android:id="@+id/action_classroomCourseFragment_to_signupOrderFragment"
+            app:destination="@id/signupOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeschoolCourseFragment"
+        android:name="com.example.coordikidsapp.ui.dashboard.courses.homeschoolCourse.HomeschoolCourseFragment"
+        android:label="HomeschoolCourseFragment"
+        tools:layout="@layout/fragment_homeschool_course">
+        <action
+            android:id="@+id/action_homeschoolCourseFragment_to_signupOrderFragment"
+            app:destination="@id/signupOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myAccountFragment"
+        android:name="com.example.coordikidsapp.ui.dashboard.my_account.MyAccountFragment"
+        android:label="MyAccountFragment"
+        tools:layout="@layout/fragment_my_account" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.coordikidsapp.ui.auth.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <argument
+            android:name="is_login_parent"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupOrderFragment"
+        android:name="com.example.coordikidsapp.ui.auth.signup.signup_order.SignupOrderFragment"
+        android:label="SignupOrderFragment"
+        tools:layout="@layout/fragment_signup_order">
+
+        <argument
+            android:name="order_name"
+            app:argType="string" />
+        <argument
+            android:name="order_price"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_signupOrderFragment_to_signupDetailsFragment"
+            app:destination="@id/signupDetailsFragment" />
+        <action
+            android:id="@+id/action_signupOrderFragment_to_signupBillingFragment"
+            app:destination="@id/signupBillingFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/signupDetailsFragment"
+        android:name="com.example.coordikidsapp.ui.auth.signup.signup_details.SignupDetailsFragment"
+        android:label="SignupDetailsFragment"
+        tools:layout="@layout/fragment_signup_details">
+        <argument
+            android:name="order_details"
+            app:argType="com.example.coordikidsapp.domain.models.OrderDetails" />
+        <action
+            android:id="@+id/action_signupDetailsFragment_to_signupBillingFragment"
+            app:destination="@id/signupBillingFragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/signupBillingFragment"
+        android:name="com.example.coordikidsapp.ui.auth.signup.signup_billing.SignupBillingFragment"
+        android:label="SignupBillingFragment"
+        tools:layout="@layout/fragment_signup_billing">
+        <argument
+            android:name="order_details"
+            app:argType="com.example.coordikidsapp.domain.models.OrderDetails" />
+        <argument
+            android:name="user_details"
+            app:argType="com.example.coordikidsapp.domain.models.UserDetails" />
+
+    </fragment>
+</navigation>

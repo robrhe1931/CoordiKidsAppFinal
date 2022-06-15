@@ -1,0 +1,268 @@
+<resources>
+    <string name="app_name">CoordiKidsApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_courses">My Courses</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_more">More</string>
+
+    <string name="title_CoordiKids">
+<font color="#ffffff">Coordi</font><font color="#63b796">Kids</font>
+    </string>
+
+    <string name="auth_title_CoordiKids">
+            <font color="#13395A">Coordi</font><font color="#79C9B7">Kids</font>
+</string>
+
+    <string name="complete_th">Complete the Online Assessment to Determine Your Child\' Level of Need.</string>
+
+    <string name="step_1_guid_1">1. Click on &quot;Start your Free Trial&quot;</string>
+    <string name="step_1_guid_2">2. Select your preferred Subscription method</string>
+    <string name="step_1_guid_3">3. Register with your preferred Username and Password</string>
+    <string name="step_1_guid_4">4. Gain immediate access to the exercises</string>
+
+    <string name="step_two_su">Step 2 - Login as a Member</string>
+
+    <string name="step_2_guid_1">1. Only 15 minutes a day</string>
+    <string name="step_2_guid_2">2. Follow along therapeutic exercises</string>
+    <string name="step_2_guid_3">3. Adapted for use at home or in the classroom</string>
+    <string name="step_2_guid_4">4. Packaged into fun &amp; easy-to-follow, instructional videos</string>
+    <string name="step_2_guid_5">5. Progressive exercises build on developmental phases</string>
+    <string name="step_2_guid_6">6. See your child\' progress from week to weekercises</string>
+
+    <string name="start_free_">Start Free Trial</string>
+    <string name="coordi_cons">Coordi Consultations</string>
+    <string name="coordikids_">Coordikids offeres specialized, taileored and afforable consulations in the confort of your home. Plus, the first 15-minutes are free!</string>
+    <string name="how_to_star">Success Stories</string>
+
+    <string name="australian_1">Australian Families with Access to NDIS</string>
+    <string name="australian_2">Use Capacity Building Funds to Purchase CoordiKids</string>
+
+    <string name="benefit_weekly_title">We Benefit Weekly!</string>
+    <string name="benefit_weekly_content">My kids have been using CoordiChild courses daily, and my 15 year-old now knows right from left. A very handy thing she has found, when she is learning to drive! My 11-year-old continues to benefit weekly from all of the exercises and activities.Tara M, Pediatric Occupational Therapist in Wyoming, USA</string>
+    <string name="ride_bike_title">Can Ride His Bike!</string>
+    <string name="ride_bike_content">My son is in week 15 but we\'ve taken a break this week as we\'re back at school. It was easier to do when he was at home. He\'s now able to ride a bicycle without practice wheels and rides a 7 km trail with us. My boy loves the program - he calls it Kid Gym Routine.Sam</string>
+    <string name="wow_title">Wow, just wow!</string>
+    <string name="wow_content">We are completely blown away with the results of the Coordikids courses. Never in my wildest dreams did I think that we would see the results that we have so far.Lorna - Happy Mum</string>
+    <string name="yearly">Yearly</string>
+    <string name="yearly_plan">$530</string>
+    <string name="yearly_plan_text">Yearly immediate Access to all the exercises</string>
+    <string name="still_unsure">Still unsure?</string>
+    <string name="plan_text">We offer a monthly or yearly payment package. Each package includes a 7-day trial.</string>
+    <string name="monthly">Monthly</string>
+    <string name="monthly_plan">$49</string>
+    <string name="monthly_plan_text">Monthly Access to a new set of 7-9 exercises every 2 weeks</string>
+    <string name="login">Login</string>
+
+    <string name="share_with_friends"><u>Share with friends</u></string>
+    <string name="terms_of_use"><u>Terms of Use</u></string>
+    <string name="rate_us"><u>Rate Us</u></string>
+    <string name="blog"><u>Blog</u></string>
+    <string name="faq"><u>FAQ</u></string>
+    <string name="account">Account</string>
+    <string name="my_account">My Account</string>
+    <string name="message">Message</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="home_course">Home Course</string>
+    <string name="preschool_course">Preschool Course</string>
+    <string name="classroom_course">Classroom Course</string>
+    <string name="homeschool_course">Homeschool Course</string>
+    <string name="click_here_">Click here to book a free 15 minute consulation.</string>
+    <string name="homeschool_course_content">The CK Home School Course is all about encouraging students with targeted movements to help them with:</string>
+    <string name="attention">Attention</string>
+    <string name="focus">Focus</string>
+    <string name="less_fidgeting">Less Fidgeting</string>
+    <string name="ability_to_sit_still">Ability to sit still</string>
+    <string name="self_esteem">Self-esteem</string>
+    <string name="emotional_regulation">Emotional regulation</string>
+    <string name="following_direction">Following direction</string>
+    <string name="balance_amp_posture"><![CDATA[Balance & posture]]></string>
+    <string name="rhythm">Rhythm</string>
+    <string name="view_more">View More</string>
+    <string name="home_course_description_content">CoordiKids Home Courses use occupational therapy exercises, adapted for use at home, and packaged into fun, easy to follow, instructional videos.\n\n\nOur Home Course offer specialist exercises that are easy to use with no set-up or preparation in advance: simply have access to the Internet, log in, and hit play for your child to follow along for 15 minutes a day.\n\n\nYou’re welcome to join in to encourage and have fun with your child, too!</string>
+    <string name="level_1">Level 1</string>
+    <string name="level_2">Level 2</string>
+    <string name="level_3">Level 3</string>
+    <string name="level_4">Level 4</string>
+    <string name="level_5">Level 5</string>
+    <string name="level_6">Level 6</string>
+    <string name="level_7">Level 7</string>
+    <string name="level_8">Level 8</string>
+
+    <string name="preschool_course_description_content">As an Educator, you want the best for your students. You can enhance development of foundational skills such as attention, coordination, fine motor skills, ball skills and many more.\n\n\nThe Preschool Course is designed by specialist pediatric occupational therapists to pack the best content into videos that run for about 15 minutes.\n\n\nCoordiKids enhances development of all children and it leaves the educators hands free to observe and support while the children follow the videos.</string>
+    <string name="classroom_course_description_content">CoordiKids Classroom Course exercises are designed by specialist pediatric occupational therapists to pack the best content into videos that run for 5–10 minutes, these short sets of exercises are fun and are easily incorporated into a classroom schedule.\n\n\nCoordiKids classroom course encourages students’ body and brain to improve concentration and attention in the classroom.\n\n\nTeachers have 30 sets of exercises to use randomly at any time that the class needs a movement break.</string>
+    <string name="homeschool_course_description_content">The CK Homeschool Course is designed by specialist paediatric occupational therapists to pack the best content into videos that run for 5–10 minutes, these short sets of exercises are fun and are easily incorporated into a home school schedule.\n\n\nThe Homeschool Course encourages students’ body and brain to improve concentration and attention in the home school setting. Homeschool educators receive 30 sets of exercises to use randomly at any time that a student needs a movement break.</string>
+
+    <string name="level_8_content"><b>Applied Sensory Motor Skills</b>\n\nThe development of all the skills in Levels 1 to 7 create improved functions in daily tasks such as manipulating a pencil, handwriting, scissor skills, using an effective upright posture, emotional regulation, planning, and subsequently academic skills and executive functioning.</string>
+
+    <string name="level_4_content"><b>Laterality</b>\n\nExercises that promote distinguishing left from right. These exercises help establish a dominant hand and improve awareness of directions. This is an important foundational skill for reading, writing, spelling, as well as playing sports.</string>
+    <string name="movement_breaks">Movement Breaks</string>
+
+    <string name="movement_breaks_content">What you’ll learn in this course” to “Movement breaks are specific types of movement sequences that engage students’ bodies and brains to improve concentration and attention in the classroom. Movement breaks have been shown to reduce fidgeting, improve focus, offer a break for emotional &amp; sensory regulation, and make learning more efficient.</string>
+
+    <string name="default_web_id">646278248844-o69pr7t0l6lo34f4con6heoh7e7nqi0l.apps.googleusercontent.com</string>
+    <string name="update_details">Update Details</string>
+    <string name="course_progress">Course Progress</string>
+    <string name="logout">Logout</string>
+    <string name="default_domain_name">coordikids-17cd4.firebaseapp.com</string>
+
+    <string-array name="month_options">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string-array name="date_options_1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="date_options_2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+    </string-array>
+
+    <string-array name="date_options_3">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+    </string-array>
+
+    <string-array name="date_options_4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+
+    <string name="facebook_app_id">413138014054887</string>
+    <string name="fb_login_protocol_scheme">fb413138014054887</string>
+    <string name="facebook_client_token">1e0276f17544ff2c41813fadc7cac6f1</string>
+    <string name="title_activity_facebook_auth">FacebookAuthActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

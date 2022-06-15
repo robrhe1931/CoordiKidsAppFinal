@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/title_home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigation_courses"
+        android:icon="@drawable/ic_baseline_ondemand_video_24"
+        android:title="@string/title_courses"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_baseline_notifications_none_24"
+        android:title="@string/title_notifications"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="@string/title_more"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
