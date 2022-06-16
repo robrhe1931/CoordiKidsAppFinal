@@ -24,4 +24,8 @@ class LoginViewModel(private val sharedPreferences: SharedPreferences) : ViewMod
         authRepo.firebaseAuthWithGoogle(credential)
     }
 
+    fun firebaseAuthWithFb(credential : AuthCredential){
+        authRepo.firebaseAuthWithFb(credential)
+    }
+
 }

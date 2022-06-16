@@ -19,6 +19,7 @@ import com.facebook.login.LoginResult
 import com.google.firebase.auth.FacebookAuthProvider
 import java.util.*
 
+// Adding FacebookAuthActivity to enable Fackbook Login
 class FacebookAuthActivity : AppCompatActivity() {
 
     private var rememberStatus: Boolean = false
