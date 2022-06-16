@@ -44,7 +44,7 @@ import com.facebook.login.LoginManager
 import com.google.firebase.auth.FacebookAuthProvider
 import java.util.*
 
-
+// adding LoginFragment
 class LoginFragment : Fragment() {
 
     private val args by navArgs<LoginFragmentArgs>()
@@ -87,6 +87,7 @@ class LoginFragment : Fragment() {
         factory = LoginViewModelFactory(sharedPreferences)
         viewModel = ViewModelProvider(this, factory)[LoginViewModel::class.java]
 
+        // Enable google sign in
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_id))
             .requestEmail()
