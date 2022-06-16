@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import com.example.coordikidsapp.data.ChangePassRepoImpl
 import com.example.coordikidsapp.domain.repository.ChangePassRepo
 
+// Setting ForgotPassViewModel
 class ForgotPassViewModel : ViewModel() {
 
     val changePassStatusLiveData: LiveData<Boolean>

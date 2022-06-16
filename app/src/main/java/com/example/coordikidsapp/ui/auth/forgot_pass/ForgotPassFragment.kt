@@ -12,6 +12,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.coordikidsapp.databinding.FragmentForgotPassBinding
 import com.google.firebase.auth.FirebaseAuth
 
+// Adding ForgotPassWord page Fragment using ForgotPassViewModel
 class ForgotPassFragment : Fragment() {
 
     private lateinit var viewModel: ForgotPassViewModel
