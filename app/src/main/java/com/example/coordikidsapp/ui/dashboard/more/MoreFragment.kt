@@ -1,7 +1,9 @@
 package com.example.coordikidsapp.ui.dashboard.more
 
 import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -37,7 +39,7 @@ class MoreFragment : Fragment() {
 
         if(!sharedPreferences.getBoolean("LOGIN_STATUS", false)){
             binding.myAccountOrLogin.text = "Login"
-            binding.message.visibility = View.GONE
+//            binding.message.visibility = View.GONE
             binding.myAccountOrLogin.setOnClickListener {
                 Navigation.findNavController(root)
                     .navigate(R.id.action_navigation_more_to_loginFragment)
@@ -51,5 +53,42 @@ class MoreFragment : Fragment() {
         return root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.contactUs.setOnClickListener {
+            val uri = Uri.parse("https://www.coordikids.com/contact-us/")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
 
+        binding.shareWithFriends.setOnClickListener {
+            val uri = Uri.parse("https://www.coordikids.com/contact-us/")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+
+        binding.rateUs.setOnClickListener {
+            val uri = Uri.parse("https://www.facebook.com/Coordikids/")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+
+        binding.rateUs.setOnClickListener {
+            val uri = Uri.parse("https://www.google.com/search?q=coordikids&rlz=1C1UEAD_en-GBAU944AU944&sxsrf=ALiCzsagXNnTy_ZG2nS-m62_nghzVFbwfw%3A1655447392250&ei=YB-sYu3TDZTz4-EPob2kkAM&oq=coo&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECAAQQzIECAAQQzIECAAQQzIHCC4QsQMQQzIECAAQQzIRCC4QgAQQsQMQgwEQxwEQrwEyCwguEIAEEMcBEK8BMhEILhCABBCxAxCDARDHARCvATILCC4QgAQQxwEQrwE6BwgjEOoCECc6FAguEIAEELEDEIMBEMcBEKMCENQCOhEILhCABBCxAxCDARDHARCjAjoLCAAQgAQQsQMQgwE6DgguEIAEELEDEMcBEKMCSgQIQRgASgQIRhgAULsFWLIHYOMQaAFwAXgAgAGAAogBywWSAQMyLTOYAQCgAQGwAQrAAQE&sclient=gws-wiz#lrd=0x6b915fca0e00484d:0x6aa4857a3c6f36ad,1,,,")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+
+        binding.blog.setOnClickListener {
+            val uri = Uri.parse("https://www.coordikids.com/blog-2/")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+
+        binding.faq.setOnClickListener {
+            val uri = Uri.parse("https://www.coordikids.com/faqs/")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+    }
 }

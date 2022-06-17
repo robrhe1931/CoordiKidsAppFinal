@@ -105,6 +105,7 @@
                     android:textStyle="bold" />
 
                 <FrameLayout
+                    android:id="@+id/btn_complete_assignment"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="50dp">
@@ -165,6 +166,7 @@
                     android:textSize="18sp" />
 
                 <FrameLayout
+                    android:id="@+id/btn_view_courses"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="50dp">
@@ -207,10 +209,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="22dp"
-                    android:textStyle="bold"
                     android:text="Step 1 - Purchase Your Preferred Course"
                     android:textColor="#113859"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/step_1_guid_1"
@@ -260,10 +262,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="22dp"
-                    android:textStyle="bold"
                     android:text="@string/step_two_su"
                     android:textColor="#113859"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/step_2_guid_1"
@@ -331,41 +333,15 @@
                     android:text="@string/step_2_guid_6"
                     android:textAppearance="@style/step_guid" />
 
-                <FrameLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="50dp">
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_alignParentTop="true"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginStart="25dp"
-                        android:layout_marginEnd="25dp"
-                        android:background="@drawable/btn_yellow" />
-
-                    <TextView
-                        android:id="@+id/start_free_"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:layout_centerHorizontal="true"
-                        android:layout_gravity="center"
-                        android:text="@string/start_free_"
-                        android:textAppearance="@style/start_free_" />
-                </FrameLayout>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginBottom="15dp"
-                    android:textStyle="bold"
                     android:text="@string/coordi_cons"
                     android:textColor="#2A394E"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/coordikids_"
@@ -379,6 +355,7 @@
                     android:textAppearance="@style/coordikids_" />
 
                 <FrameLayout
+                    android:id="@+id/btn_learn_more"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="50dp">
@@ -468,19 +445,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#fff"
                     android:text="@string/benefit_weekly_title"
-                    android:textSize="18sp" />
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="20dp"
-                    android:textSize="16sp"
                     android:text="@string/benefit_weekly_content"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -492,19 +469,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#fff"
                     android:text="@string/ride_bike_title"
-                    android:textSize="18sp" />
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="20dp"
-                    android:textSize="16sp"
                     android:text="@string/ride_bike_content"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -513,23 +490,23 @@
                     android:src="@drawable/ic_quotes" />
 
                 <TextView
-                    android:textStyle="bold"
-                    android:textColor="#fff"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/wow_title"
-                    android:textSize="18sp" />
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:padding="20dp"
                     android:layout_marginBottom="50dp"
-                    android:textSize="16sp"
+                    android:padding="20dp"
                     android:text="@string/wow_content"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
 
             </LinearLayout>
         </LinearLayout>

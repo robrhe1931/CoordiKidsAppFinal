@@ -2,6 +2,7 @@ package com.example.coordikidsapp.ui.auth.signup.signup_billing
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -15,6 +16,7 @@ import com.example.coordikidsapp.commons.Constants
 import com.example.coordikidsapp.databinding.FragmentSignupBillingBinding
 import com.example.coordikidsapp.domain.models.BillingDetails
 import com.example.coordikidsapp.domain.models.CourseOrder
+import com.google.android.material.snackbar.Snackbar
 import java.util.*
 
 class SignupBillingFragment : Fragment() {
@@ -140,52 +142,67 @@ class SignupBillingFragment : Fragment() {
         val postcode = binding.edtPaymentPostcode.text.toString()
 
         if (billingRegion.isEmpty()) {
-            Toast.makeText(context, "Please enter your country/region", Toast.LENGTH_SHORT)
-                .show()
+            showSnackBar("Please enter your country/region")
+//            Toast.makeText(context, "Please enter your country/region", Toast.LENGTH_SHORT)
+//                .show()
             return false
         } else if (houseNumber.isEmpty()
         ) {
-            Toast.makeText(context, "Please enter your house number", Toast.LENGTH_SHORT)
-                .show()
+            showSnackBar("Please enter your house number")
+//            Toast.makeText(context, "Please enter your house number", Toast.LENGTH_SHORT)
+//                .show()
             return false
         } else if (streetAddress.isEmpty()) {
-            Toast.makeText(
-                context,
-                "Please enter your street address",
-                Toast.LENGTH_SHORT
-            ).show()
+            showSnackBar("Please enter your street address")
+//            Toast.makeText(
+//                context,
+//                "Please enter your street address",
+//                Toast.LENGTH_SHORT
+//            ).show()
             return false
         } else if (suburb.isEmpty()) {
-            Toast.makeText(
-                context,
-                "Please enter your suburb area",
-                Toast.LENGTH_SHORT
-            ).show()
+            showSnackBar("Please enter your suburb area")
+//            Toast.makeText(
+//                context,
+//                "Please enter your suburb area",
+//                Toast.LENGTH_SHORT
+//            ).show()
             return false
         } else if (state.isEmpty()) {
-            Toast.makeText(
-                context,
-                "Please enter your state",
-                Toast.LENGTH_SHORT
-            ).show()
+            showSnackBar("Please enter your state")
+//            Toast.makeText(
+//                context,
+//                "Please enter your state",
+//                Toast.LENGTH_SHORT
+//            ).show()
             return false
         } else if (postcode.isEmpty()) {
-            Toast.makeText(
-                context,
-                "Please enter your postcode number",
-                Toast.LENGTH_SHORT
-            ).show()
+            showSnackBar("Please enter your postcode number")
+//            Toast.makeText(
+//                context,
+//                "Please enter your postcode number",
+//                Toast.LENGTH_SHORT
+//            ).show()
             return false
         } else if (!binding.checkboxTermsConditions.isChecked) {
-            Toast.makeText(
-                context,
-                "Please agree to all terms and conditions",
-                Toast.LENGTH_SHORT
-            ).show()
+            showSnackBar("Please agree to all terms and conditions")
+//            Toast.makeText(
+//                context,
+//                "Please agree to all terms and conditions",
+//                Toast.LENGTH_SHORT
+//            ).show()
             return false
         } else {
             return true
         }
+    }
+
+    private fun showSnackBar(errorText: String) {
+        val snackbar = Snackbar
+            .make(binding.billingContainer, errorText, Snackbar.LENGTH_LONG)
+        snackbar.anchorView?.setBackgroundColor(Color.RED)
+        snackbar.setTextColor(Color.WHITE)
+        snackbar.show()
     }
 
     override fun onDestroyView() {
